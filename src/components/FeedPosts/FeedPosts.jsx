@@ -29,7 +29,7 @@ const FeedPosts = () => {
 				))}
                 {!isLoading && (
                     <>
-            <FeedPost img='/img1.png' username='Nife' avatar='/img1.png'/>
+            <FeedPost img='/img1.png' username='Udath' avatar='/img1.png'/>
             <FeedPost img='/img2.png' username='MJesus' avatar='/img2.png'/>
             <FeedPost img='/img3.png' username='Mini' avatar='/img3.png'/>
             <FeedPost img='/img4.png' username='DThief' avatar='/img4.png'/>

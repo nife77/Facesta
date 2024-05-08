@@ -5,7 +5,7 @@ import { CommentLogo, NotificationsLogo, UnlikeLogo } from "../../assets/constan
 
 const PostFooter = ({username}) => {
     const[liked, setLiked] = useState(false);
-    const[likes, setLikes] = useState(6969);
+    const[likes, setLikes] = useState(700);
     
     const handleLike = () =>{
         if(liked){
@@ -37,7 +37,7 @@ const PostFooter = ({username}) => {
     </Text>
     </Text>
     <Text fontSize='sm' color={"gray"}>
-        View all 69,000 comments
+        View all 40 comments
     </Text>
     <Flex alignItems={"center"} gap={2} justifyContent={"space-between"} w={"full"}>
 					<InputGroup>

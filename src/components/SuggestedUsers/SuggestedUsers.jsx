@@ -17,7 +17,7 @@ const SuggestedUsers = () => {
 			See All
 		</Text>
 	</Flex>
-	<SuggestedUser name="Salman R" followers={-20} avatar=''/>
+	<SuggestedUser name="Salman R" followers={20} avatar=''/>
     <SuggestedUser name="Rahul Kumar" followers={5} avatar=''/>
     <SuggestedUser name="Udath Hegde" followers={999} avatar=''/>
 
