@@ -22,9 +22,9 @@ const SuggestedUsers = () => {
     <SuggestedUser name="Udath Hegde" followers={999} avatar=''/>
 
     <Box fontSize={12} color={"gray.500"} mt={5} alignSelf={"start"}>
-				© 2024 Built By{" "}
+				© 2024 Built by{" "}
 				<Link href='https://github.com/nife77' target='_blank' color='blue.500' fontSize={14}>
-					Nife
+					Mukhesh, Saumya and Udath.
 				</Link>
 			</Box>
 </VStack>
