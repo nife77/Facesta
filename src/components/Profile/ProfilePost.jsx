@@ -3,6 +3,7 @@ import { AiFillHeart } from "react-icons/ai"
 import { FaComment } from "react-icons/fa"
 import { MdDelete } from "react-icons/md"
 import Comment from "../Comment/Comment"
+import PostFooter from "../FeedPosts/PostFooter";
 
 
 const ProfilePost = ({img}) => {
@@ -120,7 +121,8 @@ const ProfilePost = ({img}) => {
                       text={"You deserve 600 marks."}
                   />
 								</VStack>
-								<Divider my={4} bg={"gray.8000"} />
+								<Divider my={4} bg={"gray.800"} />
+                <PostFooter isProfilePage={true} />
 							</Flex>
 						</Flex>
 					</ModalBody>
